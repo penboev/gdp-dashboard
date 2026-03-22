@@ -86,4 +86,4 @@ elif input_text:
 if st.session_state.messages:
     last_res = st.session_state.messages[-1]["content"]
     if "```" in last_res:
-        st.download_button(label="💾 Изтегли кода", data=last_res, file_name="output.py", mime="text/plain")
+        st.download_button(label="💾 Изтегли кода", data=last_res, file_name="output.py", mime="text/plain") 
